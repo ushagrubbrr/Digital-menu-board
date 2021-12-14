@@ -138,6 +138,9 @@
               "devServerTarget": "mdb-angular-free:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
